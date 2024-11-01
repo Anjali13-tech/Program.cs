@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body{
+            display:flex;
+            justify-content: center;
+        }
+        form{
+            border-style: solid;
+            border-color: yellow;
+            width:300px ;
+            margin-top: 60px;
+            Padding:10px;
+            background-color:brown;
+        }
+        input{
+            padding:10px;
+        }
+        label{
+            padding-left:20px
+        }
+        span{
+            padding-left:40px;
+        }
+        div{
+            width:400px;
+            height:400px;
+        }
+        
+    </style>
+</head>
+<body > 
+    <h1><u>Login Form</u></h1>
+    <div>
+    <form action="form.jsp" ;>
+        <label>Username</label>&nbsp;<input type="text"><br><br>
+        <label>Password</label>&nbsp;<input type="password"><br><br>
+        Phone number<input type="tel"><br><br>
+        <span>Email</span><input type="email"><br><br>
+        <span>Address</span><textarea></textarea><br><br>
+        <input type="submit">&nbsp;&nbsp;&nbsp;<input type="reset">
+    </form>
+    </div>
+</body>
+</html>
